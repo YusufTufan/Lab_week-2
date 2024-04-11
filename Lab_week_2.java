@@ -1,8 +1,9 @@
 public class Lab_week_2 {
     public static void main(String[] args) {
-        //Uygulama 1
+        //Uygulama-1 Denemeleri
         int [] a = {10,15,20,25,5,8,100,9};
         System.out.println(search(a,15));
+        //Uygulama-2 Denemeleri
         int [] b = selectionSort(a);
         for (int i = 0; i < b.length; i++) {
             System.out.println(b[i]);
